@@ -1,0 +1,329 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_testcases.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_testcases.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_TestCases_t {
+    QByteArrayData data[48];
+    char stringdata0[1245];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestCases_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestCases_t qt_meta_stringdata_TestCases = {
+    {
+QT_MOC_LITERAL(0, 0, 9), // "TestCases"
+QT_MOC_LITERAL(1, 10, 13), // "TEST0_warning"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 27), // "TEST1A_insert_at_test_basic"
+QT_MOC_LITERAL(4, 53, 31), // "TEST1B_insert_then_delete_basic"
+QT_MOC_LITERAL(5, 85, 20), // "TEST1C_edit_at_basic"
+QT_MOC_LITERAL(6, 106, 34), // "TEST1D_insert_move_cursor_at_..."
+QT_MOC_LITERAL(7, 141, 31), // "TEST1E_insert_delete_mixed_hard"
+QT_MOC_LITERAL(8, 173, 25), // "TEST1F_delete_empty_basic"
+QT_MOC_LITERAL(9, 199, 24), // "TEST1G_insert_move_mixed"
+QT_MOC_LITERAL(10, 224, 23), // "TEST1H_move_cursor_jump"
+QT_MOC_LITERAL(11, 248, 20), // "TEST1I_reserve_basic"
+QT_MOC_LITERAL(12, 269, 19), // "TEST1J_reserve_edge"
+QT_MOC_LITERAL(13, 289, 30), // "TEST1K_reserve_explicit_stress"
+QT_MOC_LITERAL(14, 320, 17), // "TEST2A_const_test"
+QT_MOC_LITERAL(15, 338, 34), // "TEST3A_fill_constructor_test_..."
+QT_MOC_LITERAL(16, 373, 28), // "TEST3B_fill_constructor_edge"
+QT_MOC_LITERAL(17, 402, 27), // "TEST3C_index_operator_basic"
+QT_MOC_LITERAL(18, 430, 27), // "TEST3D_index_operator_const"
+QT_MOC_LITERAL(19, 458, 40), // "TEST3E_index_operator_referen..."
+QT_MOC_LITERAL(20, 499, 30), // "TEST3F_ostream_insertion_basic"
+QT_MOC_LITERAL(21, 530, 29), // "TEST3G_ostream_insertion_edge"
+QT_MOC_LITERAL(22, 560, 30), // "TEST3H_ostream_insertion_chain"
+QT_MOC_LITERAL(23, 591, 35), // "TEST3I_equality_inequality_op..."
+QT_MOC_LITERAL(24, 627, 26), // "TEST3J_comparison_operator"
+QT_MOC_LITERAL(25, 654, 21), // "TEST5A_iterator_basic"
+QT_MOC_LITERAL(26, 676, 27), // "TEST5B_iterator_dereference"
+QT_MOC_LITERAL(27, 704, 29), // "TEST5C_iterator_bidirectional"
+QT_MOC_LITERAL(28, 734, 20), // "TEST5D_iterator_edge"
+QT_MOC_LITERAL(29, 755, 29), // "TEST5E_iterator_random_access"
+QT_MOC_LITERAL(30, 785, 29), // "TEST5F_iterator_advanced_sort"
+QT_MOC_LITERAL(31, 815, 34), // "TEST6A_initializer_list_basic..."
+QT_MOC_LITERAL(32, 850, 33), // "TEST6B_initializer_list_edge_..."
+QT_MOC_LITERAL(33, 884, 29), // "TEST6C_copy_constructor_basic"
+QT_MOC_LITERAL(34, 914, 28), // "TEST6D_copy_assignment_basic"
+QT_MOC_LITERAL(35, 943, 16), // "TEST6E_copy_edge"
+QT_MOC_LITERAL(36, 960, 30), // "TEST6F_comparison_operator_set"
+QT_MOC_LITERAL(37, 991, 29), // "TEST7A_move_constructor_basic"
+QT_MOC_LITERAL(38, 1021, 28), // "TEST7B_move_constructor_time"
+QT_MOC_LITERAL(39, 1050, 28), // "TEST7C_move_assignment_basic"
+QT_MOC_LITERAL(40, 1079, 27), // "TEST7D_move_assignment_time"
+QT_MOC_LITERAL(41, 1107, 16), // "TEST7E_move_edge"
+QT_MOC_LITERAL(42, 1124, 25), // "TEST7F_insert_rvalue_time"
+QT_MOC_LITERAL(43, 1150, 20), // "TEST7G_insert_lvalue"
+QT_MOC_LITERAL(44, 1171, 20), // "TEST7H_nested_insert"
+QT_MOC_LITERAL(45, 1192, 20), // "TEST9A_emplace_basic"
+QT_MOC_LITERAL(46, 1213, 11), // "TEST9B_edge"
+QT_MOC_LITERAL(47, 1225, 19) // "TEST9C_emplace_time"
+
+    },
+    "TestCases\0TEST0_warning\0\0"
+    "TEST1A_insert_at_test_basic\0"
+    "TEST1B_insert_then_delete_basic\0"
+    "TEST1C_edit_at_basic\0"
+    "TEST1D_insert_move_cursor_at_basic\0"
+    "TEST1E_insert_delete_mixed_hard\0"
+    "TEST1F_delete_empty_basic\0"
+    "TEST1G_insert_move_mixed\0"
+    "TEST1H_move_cursor_jump\0TEST1I_reserve_basic\0"
+    "TEST1J_reserve_edge\0TEST1K_reserve_explicit_stress\0"
+    "TEST2A_const_test\0TEST3A_fill_constructor_test_basic\0"
+    "TEST3B_fill_constructor_edge\0"
+    "TEST3C_index_operator_basic\0"
+    "TEST3D_index_operator_const\0"
+    "TEST3E_index_operator_reference_advanced\0"
+    "TEST3F_ostream_insertion_basic\0"
+    "TEST3G_ostream_insertion_edge\0"
+    "TEST3H_ostream_insertion_chain\0"
+    "TEST3I_equality_inequality_operator\0"
+    "TEST3J_comparison_operator\0"
+    "TEST5A_iterator_basic\0TEST5B_iterator_dereference\0"
+    "TEST5C_iterator_bidirectional\0"
+    "TEST5D_iterator_edge\0TEST5E_iterator_random_access\0"
+    "TEST5F_iterator_advanced_sort\0"
+    "TEST6A_initializer_list_basic_test\0"
+    "TEST6B_initializer_list_edge_test\0"
+    "TEST6C_copy_constructor_basic\0"
+    "TEST6D_copy_assignment_basic\0"
+    "TEST6E_copy_edge\0TEST6F_comparison_operator_set\0"
+    "TEST7A_move_constructor_basic\0"
+    "TEST7B_move_constructor_time\0"
+    "TEST7C_move_assignment_basic\0"
+    "TEST7D_move_assignment_time\0"
+    "TEST7E_move_edge\0TEST7F_insert_rvalue_time\0"
+    "TEST7G_insert_lvalue\0TEST7H_nested_insert\0"
+    "TEST9A_emplace_basic\0TEST9B_edge\0"
+    "TEST9C_emplace_time"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestCases[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      46,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  244,    2, 0x08 /* Private */,
+       3,    0,  245,    2, 0x08 /* Private */,
+       4,    0,  246,    2, 0x08 /* Private */,
+       5,    0,  247,    2, 0x08 /* Private */,
+       6,    0,  248,    2, 0x08 /* Private */,
+       7,    0,  249,    2, 0x08 /* Private */,
+       8,    0,  250,    2, 0x08 /* Private */,
+       9,    0,  251,    2, 0x08 /* Private */,
+      10,    0,  252,    2, 0x08 /* Private */,
+      11,    0,  253,    2, 0x08 /* Private */,
+      12,    0,  254,    2, 0x08 /* Private */,
+      13,    0,  255,    2, 0x08 /* Private */,
+      14,    0,  256,    2, 0x08 /* Private */,
+      15,    0,  257,    2, 0x08 /* Private */,
+      16,    0,  258,    2, 0x08 /* Private */,
+      17,    0,  259,    2, 0x08 /* Private */,
+      18,    0,  260,    2, 0x08 /* Private */,
+      19,    0,  261,    2, 0x08 /* Private */,
+      20,    0,  262,    2, 0x08 /* Private */,
+      21,    0,  263,    2, 0x08 /* Private */,
+      22,    0,  264,    2, 0x08 /* Private */,
+      23,    0,  265,    2, 0x08 /* Private */,
+      24,    0,  266,    2, 0x08 /* Private */,
+      25,    0,  267,    2, 0x08 /* Private */,
+      26,    0,  268,    2, 0x08 /* Private */,
+      27,    0,  269,    2, 0x08 /* Private */,
+      28,    0,  270,    2, 0x08 /* Private */,
+      29,    0,  271,    2, 0x08 /* Private */,
+      30,    0,  272,    2, 0x08 /* Private */,
+      31,    0,  273,    2, 0x08 /* Private */,
+      32,    0,  274,    2, 0x08 /* Private */,
+      33,    0,  275,    2, 0x08 /* Private */,
+      34,    0,  276,    2, 0x08 /* Private */,
+      35,    0,  277,    2, 0x08 /* Private */,
+      36,    0,  278,    2, 0x08 /* Private */,
+      37,    0,  279,    2, 0x08 /* Private */,
+      38,    0,  280,    2, 0x08 /* Private */,
+      39,    0,  281,    2, 0x08 /* Private */,
+      40,    0,  282,    2, 0x08 /* Private */,
+      41,    0,  283,    2, 0x08 /* Private */,
+      42,    0,  284,    2, 0x08 /* Private */,
+      43,    0,  285,    2, 0x08 /* Private */,
+      44,    0,  286,    2, 0x08 /* Private */,
+      45,    0,  287,    2, 0x08 /* Private */,
+      46,    0,  288,    2, 0x08 /* Private */,
+      47,    0,  289,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void TestCases::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        TestCases *_t = static_cast<TestCases *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->TEST0_warning(); break;
+        case 1: _t->TEST1A_insert_at_test_basic(); break;
+        case 2: _t->TEST1B_insert_then_delete_basic(); break;
+        case 3: _t->TEST1C_edit_at_basic(); break;
+        case 4: _t->TEST1D_insert_move_cursor_at_basic(); break;
+        case 5: _t->TEST1E_insert_delete_mixed_hard(); break;
+        case 6: _t->TEST1F_delete_empty_basic(); break;
+        case 7: _t->TEST1G_insert_move_mixed(); break;
+        case 8: _t->TEST1H_move_cursor_jump(); break;
+        case 9: _t->TEST1I_reserve_basic(); break;
+        case 10: _t->TEST1J_reserve_edge(); break;
+        case 11: _t->TEST1K_reserve_explicit_stress(); break;
+        case 12: _t->TEST2A_const_test(); break;
+        case 13: _t->TEST3A_fill_constructor_test_basic(); break;
+        case 14: _t->TEST3B_fill_constructor_edge(); break;
+        case 15: _t->TEST3C_index_operator_basic(); break;
+        case 16: _t->TEST3D_index_operator_const(); break;
+        case 17: _t->TEST3E_index_operator_reference_advanced(); break;
+        case 18: _t->TEST3F_ostream_insertion_basic(); break;
+        case 19: _t->TEST3G_ostream_insertion_edge(); break;
+        case 20: _t->TEST3H_ostream_insertion_chain(); break;
+        case 21: _t->TEST3I_equality_inequality_operator(); break;
+        case 22: _t->TEST3J_comparison_operator(); break;
+        case 23: _t->TEST5A_iterator_basic(); break;
+        case 24: _t->TEST5B_iterator_dereference(); break;
+        case 25: _t->TEST5C_iterator_bidirectional(); break;
+        case 26: _t->TEST5D_iterator_edge(); break;
+        case 27: _t->TEST5E_iterator_random_access(); break;
+        case 28: _t->TEST5F_iterator_advanced_sort(); break;
+        case 29: _t->TEST6A_initializer_list_basic_test(); break;
+        case 30: _t->TEST6B_initializer_list_edge_test(); break;
+        case 31: _t->TEST6C_copy_constructor_basic(); break;
+        case 32: _t->TEST6D_copy_assignment_basic(); break;
+        case 33: _t->TEST6E_copy_edge(); break;
+        case 34: _t->TEST6F_comparison_operator_set(); break;
+        case 35: _t->TEST7A_move_constructor_basic(); break;
+        case 36: _t->TEST7B_move_constructor_time(); break;
+        case 37: _t->TEST7C_move_assignment_basic(); break;
+        case 38: _t->TEST7D_move_assignment_time(); break;
+        case 39: _t->TEST7E_move_edge(); break;
+        case 40: _t->TEST7F_insert_rvalue_time(); break;
+        case 41: _t->TEST7G_insert_lvalue(); break;
+        case 42: _t->TEST7H_nested_insert(); break;
+        case 43: _t->TEST9A_emplace_basic(); break;
+        case 44: _t->TEST9B_edge(); break;
+        case 45: _t->TEST9C_emplace_time(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject TestCases::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestCases.data,
+      qt_meta_data_TestCases,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestCases::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestCases::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestCases.stringdata0))
+        return static_cast<void*>(const_cast< TestCases*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int TestCases::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 46)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 46;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 46)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 46;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
